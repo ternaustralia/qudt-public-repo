@@ -6229,6 +6229,15 @@ unit:GM-PER-DAY
   rdfs:label "GM PER DAY" ;
   skos:prefLabel "gram per day" ;
 .
+unit:GM-PER-M2-PER-DAY
+  a qudt:Unit ;
+  qudt:conversionMultiplier "1"^^xsd:double ;
+  qudt:conversionOffset "0.0"^^xsd:double ;
+  qudt:plainTextDescription "A metric unit of volume over time indicating the amount generated across one square meter over a day. Used to express productivity of an ecosystem." ;
+  qudt:hasQuantityKind quantitykind:AreaPerTime, quantitykind:Mass ;
+  qudt:symbol "g/m^2/day" ;
+  rdfs:label "grams per square metre per day" ;
+.
 unit:GM-PER-DEG_C
   a qudt:CGS-Unit ;
   a qudt:Unit ;
